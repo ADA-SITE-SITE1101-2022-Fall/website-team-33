@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+img{
+	 padding:-5;
+ 	 margin:-5;
+}
+body{
+	background-image: url("https://www.ada.edu.az/frq-content/plugins/about_content_x1/entry/20200430121905_20580000.jpg");	
+	background-repeat: no-repeat;
+	background-size: 100% 900px;
+}
+
+#welcome{
+	 font-size: 60px; 	
+	 text-align: center;
+	 margin-top: -280px;	
+  	 padding: 50px;
+  	 color: #353535; 
+  	 font-family: 'Lexend Deca', sans-serif; 
+  	 position: relative;
+  	 user-select: none;
+}
+
+#ourteam{
+	 font-size: 20px; 	
+	 text-align: center;
+	 margin-top: -40px;	
+  	 padding: 50px;
+  	 color: #353535; 
+  	 font-family: 'Lexend Deca', sans-serif; 
+  	 position: relative;
+  	 user-select: none;
+}
+
+.box{
+	color: #D2D7DF;
+	width: 1920px;
+	height: 166px;
+	margin-top: 0px;
+	height: 400px;
+	width: 1200px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 20px;
+	background: white;
+	box-shadow: 0px;
+	position: relative;
+	opacity: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	top: 150px;
+}
+
+.logo{
+	width:85px;
+	height: 55px;
+	cursor: pointer;
+	position: relative;
+	left: 100px;
+	top: 10px;
+}
+
+.homepage{
+	width: 30px;
+	z-index: 1;
+	height: 30px;
+	cursor: pointer;
+	position: relative;
+	top: 0px;
+	left: -55px;
+	opacity: 50%;
+}
+
+.homepage:hover{
+	width: 30px;
+	z-index: 1;
+	height: 30px;
+	cursor: pointer;
+	position: relative;
+	top: 0px;
+	left: -55px;
+	opacity: 70%;
+}
+
+
+.bg{
+	opacity: 60%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+}
+
+.navlink{
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 200;
+	color: #353535;
+	position: relative;
+	top: -30px;
+	right: -1000px;
+	text-decoration: none;
+
+
+}
+
+.nav__links{
+	list-style: none;
+
+}
+
+.nav__links li{
+	display: inline-block;
+	padding: 0px 32px;
+	text-transform: uppercase;
+
+}
+
+.nav__links li a:hover{
+	color: #D2D7DF;
+}
+
+.wrap{
+	overflow: hidden;
+	position: relative;
+}
+
+.container{
+	display: grid;
+}
+
+
+.button{
+	position: relative;
+	width: 200px;
+	padding: 12px 20px;
+	left: 690px;
+	top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	align-self: center;
+	text-align: center;
+	margin: 20px 10px;
+	font-weight: 300;
+	font-family: 'Lexend Deca', sans-serif; 
+	border: 2px solid #353535;
+	background: transparent;
+	color: #353535;
+	cursor: pointer;
+	text-decoration: none;
+  user-select: none;
+	
+}
+
+.button:hover{
+	background-color: gray;
+	color: white;
+	border: 2px solid gray;
+}
+
+#banner{
+	border-sizing: border-box;	
+	z-index: 0;
+	position: absolute;
+	width: 1200px;
+	height: auto;
+	margin-left: 168px;
+	margin-top: 450px;
+	margin-right: auto;
+	
+}
+
+#ibrahim{
+	 top: 1175px;
+	 z-index: 1;
+	 margin-left: 250px;	 
+	 width: 150px;
+	 height: auto;
+	 border-radius: 50%;
+	 position: absolute;
+	 box-shadow: 0 0 10px black;
+}
+
+#farid{
+	 top: 1337px;	 
+	 z-index: 1;
+	 margin-left: 1100px;	 
+	 width: 150px;
+	 height: auto;
+	 border-radius: 50%;
+	 position: absolute; 
+	 box-shadow: 0 0 10px black;
+}
+
+#ilgar{
+	 top: 1500px;	 
+	 z-index: 1;	
+	 margin-left: 250px;	 
+	 width: 150px;
+	 height: auto;
+	 border-radius: 50%;
+	 position: absolute; 
+	 box-shadow: 0 0 10px black;
+}
+
+#whoami{
+	 font-size: 60px; 	
+	 z-index: 1;
+	 text-align: center;
+	 margin-left: 565px;
+	 margin-top: 500px;
+  	 color: #353535; 
+  	 font-family: 'Lexend Deca', sans-serif; 
+  	 position: absolute;
+}
+
+#ibrahimtxt{
+	 font-size: 30px; 
+	 z-index: 1;	
+	 text-align: center;
+	 margin-top: 690px;	
+	 margin-left: 450px;
+	 padding: 0px;
+	 color: #353535; 
+	 font-family: 'Lexend Deca', sans-serif; 
+	 position: absolute;
+}
+
+#ilgartxt{
+	font-size: 30px; 	
+	z-index: 1;
+	text-align: center;
+	margin-top: 850px;
+   margin-left: 470px;	
+   padding: 0px;
+   color: #353535; 
+   font-family: 'Lexend Deca', sans-serif; 
+   position: absolute;
+}
+
+#faridtxt{
+	 font-size: 30px; 	
+	 z-index: 1;
+	 text-align: center;
+	 margin-top: 1010px;	
+	 margin-left: 450px;
+  	 padding: 0px;
+  	 color: #353535; 
+  	 font-family: 'Lexend Deca', sans-serif; 
+  	 position: absolute;
+}
+
