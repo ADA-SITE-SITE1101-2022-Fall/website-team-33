@@ -74,6 +74,7 @@ body{
 	top: 0px;
 	left: -55px;
 	opacity: 50%;
+	transition: all 0.3s ease;
 }
 
 .homepage:hover{
@@ -95,6 +96,7 @@ body{
 	top: 0;
 	width: 100%;
 	height: auto;
+	pointer-events: none;
 }
 
 .navlink{
@@ -103,7 +105,7 @@ body{
 	color: #353535;
 	position: relative;
 	top: -30px;
-	right: -1000px;
+	right: -1200px;
 	text-decoration: none;
 
 
@@ -111,7 +113,6 @@ body{
 
 .nav__links{
 	list-style: none;
-
 }
 
 .nav__links li{
@@ -120,7 +121,9 @@ body{
 	text-transform: uppercase;
 
 }
-
+.nav__links li a{
+	transition: all 0.3s ease;
+}
 .nav__links li a:hover{
 	color: #D2D7DF;
 }
@@ -153,7 +156,8 @@ body{
 	color: #353535;
 	cursor: pointer;
 	text-decoration: none;
-  user-select: none;
+   user-select: none;
+   transition: all 0.3s ease;
 	
 }
 
@@ -172,7 +176,7 @@ body{
 	margin-left: 168px;
 	margin-top: 450px;
 	margin-right: auto;
-	
+	pointer-events: none;
 }
 
 #ibrahim{
@@ -184,9 +188,10 @@ body{
 	 border-radius: 50%;
 	 position: absolute;
 	 box-shadow: 0 0 10px black;
+	 pointer-events: none;
 }
 
-#farid{
+#ilgar{
 	 top: 1337px;	 
 	 z-index: 1;
 	 margin-left: 1100px;	 
@@ -195,9 +200,10 @@ body{
 	 border-radius: 50%;
 	 position: absolute; 
 	 box-shadow: 0 0 10px black;
+	 pointer-events: none;
 }
 
-#ilgar{
+#farid{
 	 top: 1500px;	 
 	 z-index: 1;	
 	 margin-left: 250px;	 
@@ -206,6 +212,7 @@ body{
 	 border-radius: 50%;
 	 position: absolute; 
 	 box-shadow: 0 0 10px black;
+	 pointer-events: none;
 }
 
 #whoami{
@@ -217,6 +224,7 @@ body{
   	 color: #353535; 
   	 font-family: 'Lexend Deca', sans-serif; 
   	 position: absolute;
+  	 user-select: none;
 }
 
 #ibrahimtxt{
@@ -229,6 +237,7 @@ body{
 	 color: #353535; 
 	 font-family: 'Lexend Deca', sans-serif; 
 	 position: absolute;
+	 user-select: none;
 }
 
 #ilgartxt{
@@ -236,11 +245,12 @@ body{
 	z-index: 1;
 	text-align: center;
 	margin-top: 850px;
-   margin-left: 470px;	
+   margin-left: 485px;	
    padding: 0px;
    color: #353535; 
    font-family: 'Lexend Deca', sans-serif; 
    position: absolute;
+	user-select: none;
 }
 
 #faridtxt{
@@ -253,5 +263,58 @@ body{
   	 color: #353535; 
   	 font-family: 'Lexend Deca', sans-serif; 
   	 position: absolute;
+	 user-select: none;
 }
 
+.footer{
+	position: relative;	
+	background-color: #24262b;
+	padding: 40px 0 ;
+	width: 100%;
+	bottom: 0;
+	margin-top: 1300px;
+}
+
+.footer1{
+	max-width: 1170px;
+	margin: auto;
+}
+
+.ul1{
+	list-style: none;
+	font-family: 'Lexend Deca', sans-serif; 
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.footer-col{
+	width: 25%;
+	padding: 0 100px;
+	font-family: 'Lexend Deca', sans-serif; 
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 30px;
+	font-weight: 400;
+	position: relative;
+	font-family: 'Lexend Deca', sans-serif; 
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 200;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: white;
+}
