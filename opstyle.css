@@ -1,0 +1,234 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+   scroll-behavior: smooth;
+}
+img{
+	 padding:-5;
+ 	 margin:-5;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("https://www.ada.edu.az/frq-content/plugins/about_content_x1/entry/20200430121335_69943000.jpg");	
+	background-repeat: no-repeat;
+	background-size: 100% 900px;
+	font-family: 'Lexend Deca', sans-serif; 
+}
+
+.box{
+	color: #D2D7DF;
+	margin-top: 0px;
+	height: 400px;
+	width: 1400px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 20px;
+	background: white;
+	box-shadow: 0px;
+	position: relative;
+	opacity: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	top: 150px;
+}
+p{
+	font-size: 20px;	
+	font-weight: 300;
+	color: #353535;
+	margin-top: -225px;
+	position: relative;
+	margin-left: 100px;
+	margin-right: 100px;
+	line-height: 40px;
+	
+}
+
+h3{
+	font-weight: 500;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.logo{
+	width:85px;
+	height: 55px;
+	cursor: pointer;
+	position: relative;
+	left: 100px;
+	top: 10px;
+}
+
+.homepage{
+	width: 30px;
+	z-index: 1;
+	height: 30px;
+	cursor: pointer;
+	position: relative;
+	top: 0px;
+	left: -55px;
+	opacity: 50%;
+	transition: all 0.3s ease;
+}
+
+.homepage:hover{
+	width: 30px;
+	z-index: 1;
+	height: 30px;
+	cursor: pointer;
+	position: relative;
+	top: 0px;
+	left: -55px;
+	opacity: 70%;
+}
+
+
+.bg{
+	opacity: 60%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 78px;
+}
+
+.navlink{
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 200;
+	color: #353535;
+	position: relative;
+	top: -30px;
+	right: -1200px;
+	text-decoration: none;
+}
+
+.nav__links{
+	list-style: none;
+}
+
+.nav__links li{
+	display: inline-block;
+	padding: 0px 32px;
+	text-transform: uppercase;
+
+}
+.nav__links li a{
+	transition: all 0.3s ease;
+}
+.nav__links li a:hover{
+	color: #D2D7DF;
+}
+
+.wrap{
+	overflow: hidden;
+	position: relative;
+}
+#img1{
+	width: 512px;
+	height: auto;
+	position: absolute;	
+	top: 900px;
+	box-shadow: 0 0 10px black;
+}
+#img2{
+	width: 512px;
+	height: auto;
+	position: absolute;	
+	top: 900px;
+	left: 512px;
+	box-shadow: 0 0 10px black;
+}
+
+#img3{
+	height: 384px;
+	width: auto;
+	position: absolute;	
+	top: 900px;
+	left: 1024px;
+	box-shadow: 0 0 10px black;
+}
+
+#img4{
+	height: 384px;
+	width: auto;
+	position: absolute;	
+	top: 1284px;
+	left: -170.667px;
+	box-shadow: 0 0 10px black;
+}
+
+#img5{
+	height: 384px;
+	width: auto;
+	position: absolute;	
+	top: 1284px;
+	left: 512px;
+	box-shadow: 0 0 5px black;
+}
+
+#img6{
+	height: 384px;
+	width: auto;
+	position: absolute;	
+	top: 1284px;
+	left: 1024px;
+	box-shadow: 0 0 10px black;
+}
+
+.footer{
+	position: relative;	
+	background-color: #24262b;
+	padding: 40px 0 ;
+	width: 100%;
+	bottom: 0;
+	margin-top: 1054px;
+}
+
+.footer1{
+	max-width: 1170px;
+	margin: auto;
+}
+
+.ul1{
+	list-style: none;
+	font-family: 'Lexend Deca', sans-serif; 
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.footer-col{
+	width: 25%;
+	padding: 0 100px;
+	font-family: 'Lexend Deca', sans-serif; 
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 30px;
+	font-weight: 400;
+	position: relative;
+	font-family: 'Lexend Deca', sans-serif; 
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 200;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: white;
+}
+
