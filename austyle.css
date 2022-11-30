@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: 'Lexend Deca', sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -46,6 +47,7 @@ h3{
 	top: 0px;
 	left: -55px;
 	opacity: 50%;
+	transition: all 0.3s ease;
 }
 
 .homepage:hover{
@@ -76,7 +78,7 @@ h3{
 	color: #353535;
 	position: relative;
 	top: -30px;
-	right: -1000px;
+	right: -1200px;
 	text-decoration: none;
 
 
@@ -93,7 +95,9 @@ h3{
 	text-transform: uppercase;
 
 }
-
+.nav__links li a{
+	transition: all 0.3s ease;
+}
 .nav__links li a:hover{
 	color: #D2D7DF;
 }
@@ -105,14 +109,14 @@ h3{
 
 .container .box{
 	margin: auto;
-	max-width: 500px;
+	max-width: 900px;
 	align-items: center;
-	min-height: 100vh;	
+	min-height: 50vh;	
 	position: relative;
-	width: 350px;
+	width: 400px;
 	padding: 40px;
 	background: #fff;
-	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	box-shadow: 0 0 10px gray;
 	border-radius: 5px;
 	margin: 30px;
 	box-sizing: border-box;
@@ -132,4 +136,81 @@ h3{
 	width: 150px;
 	margin: auto;
 	border-radius: 50%;
+	box-shadow: 0 0 10px black;
+}
+
+#farid{
+	position: relative;
+	height: 150px;
+	width: 150px;
+	margin: auto;
+	border-radius: 50%;
+	box-shadow: 0 0 10px black;
+}
+
+
+#ilgar{
+	position: relative;
+	height: 150px;
+	width: 150px;
+	margin: auto;
+	border-radius: 50%;
+	box-shadow: 0 0 10px black;
+}
+
+
+.footer{
+	position: relative;	
+	background-color: #24262b;
+	padding: 40px 0 ;
+	width: 100%;
+	bottom: 0;
+	margin-top: 55px;
+}
+
+.footer1{
+	max-width: 1170px;
+	margin: auto;
+}
+
+.ul1{
+	list-style: none;
+	font-family: 'Lexend Deca', sans-serif; 
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.footer-col{
+	width: 25%;
+	padding: 0 100px;
+	font-family: 'Lexend Deca', sans-serif; 
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 30px;
+	font-weight: 400;
+	position: relative;
+	font-family: 'Lexend Deca', sans-serif; 
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 200;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+
+.footer-col ul li a:hover{
+	color: white;
 }
