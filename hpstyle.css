@@ -10,9 +10,9 @@ img{
  	 margin:-5;
 }
 body{
-	background-image: url("https://www.ada.edu.az/frq-content/plugins/about_content_x1/entry/20200430121905_20580000.jpg");	
-	background-repeat: no-repeat;
-	background-size: 100% 900px;
+	 background-image: url("https://www.ada.edu.az/frq-content/plugins/about_content_x1/entry/20200430121905_20580000.jpg");	
+	 background-repeat: no-repeat;
+	 background-size: 100% 900px;
 }
 
 #welcome{
@@ -245,11 +245,11 @@ body{
 	z-index: 1;
 	text-align: center;
 	margin-top: 850px;
-   margin-left: 485px;	
-   padding: 0px;
-   color: #353535; 
-   font-family: 'Lexend Deca', sans-serif; 
-   position: absolute;
+   	margin-left: 463px;	
+   	padding: 0px;
+   	color: #353535; 
+   	font-family: 'Lexend Deca', sans-serif; 
+   	position: absolute;
 	user-select: none;
 }
 
